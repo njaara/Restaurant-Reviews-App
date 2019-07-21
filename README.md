@@ -26,6 +26,6 @@ With your server running, visit the site: http://localhost:8000.
 
 ## How to Run
 
-- See it [here](https://njaara.github.io/Restaurant-Reviews-App/).
+- Download or clone the project.
 - View the [instructions](#instructions) above.
 
