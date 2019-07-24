@@ -35,6 +35,5 @@ With your server running, visit the site: http://localhost:8000.
 - https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/tabIndex
 - https://developer.mozilla.org/en-US/docs/Web/API/Cache
 - https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker
-- https://www.youtube.com/watch?v=92dtrNU1GQc
 - https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/
-
+- https://www.youtube.com/watch?v=92dtrNU1GQc
