@@ -31,8 +31,8 @@ With your server running, visit the site: http://localhost:8000.
   - View the [instructions](#instructions) above.
   
 ## References
-https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles
-https://developer.mozilla.org/en-US/docs/Web/API/Cache
-https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/tabIndex
-https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles
+- https://developer.mozilla.org/en-US/docs/Web/API/Cache
+- https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/tabIndex
+- https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker
 
