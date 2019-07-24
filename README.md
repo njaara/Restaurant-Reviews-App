@@ -6,6 +6,7 @@
 - [Specification](#specification)
 - [Instructions](#instructions)
 - [How to Run](#how-to-run)
+- [References](#references)
 
 ## Project Overview
 
@@ -28,4 +29,10 @@ With your server running, visit the site: http://localhost:8000.
 - See it [here](https://njaara.github.io/Restaurant-Reviews-App/).
 - Download or clone the project.
   - View the [instructions](#instructions) above.
+  
+## References
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles
+https://developer.mozilla.org/en-US/docs/Web/API/Cache
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/tabIndex
+https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker
 
