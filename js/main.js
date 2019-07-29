@@ -4,14 +4,15 @@ let restaurants,
 var newMap
 var markers = []
 
-
 if('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js')
-  .then(function() {
-    console.log('Registration successful');
-  })
-  .catch(function() {
-    console.log('Registration failed');
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('./sw.js').then(function(registration) {
+      // Successful Registration
+      console.log('Registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // Failed Registration
+      console.log('Registration failed: ', err);
+    });
   });
 }
 
@@ -171,6 +172,7 @@ createRestaurantHTML = (restaurant) => {
 
   const image = document.createElement('img');
   image.className = 'restaurant-img';
+  image.alt = restaurant.name + 'Restaurant';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
   li.append(image);
 
